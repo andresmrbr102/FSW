@@ -527,7 +527,7 @@ section
 {
 	font-size: 33px;
 	font-weight: 500;
-	color: #0e8ce4;
+	color: #C80A0A;
 }
 .header_search
 {
@@ -840,7 +840,7 @@ select option
 	width: 100%;
 	border-top: solid 1px #f2f2f2;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
-	background: #FFFFFF;
+	background: #9F7416;
 }
 .header.scrolled .main_nav
 {
@@ -862,7 +862,7 @@ select option
 {
 	width: 293px;
 	height: 100%;
-	background: #a19a9a;
+	background: #9F7416;
 	padding-left: 35px;
 	cursor: pointer;
 	z-index: 1;
@@ -958,7 +958,7 @@ select option
 }
 .cat_menu li a:hover
 {
-	color: #0e8ce4;
+	color: #9F7416;
 }
 .cat_menu li a i
 {
@@ -1003,7 +1003,7 @@ select option
 {
 	font-size: 18px;
 	font-weight: 400;
-	color: #a19a9a;
+	color: #FFFFFFFF;
 	line-height: 60px;
 }
 .main_nav_dropdown li li
@@ -1020,6 +1020,7 @@ select option
 	padding-right: 25px;
 	padding-left: 25px;
 	cursor: pointer;
+	background-color: #9F7416;
 }
 .menu_trigger
 {
@@ -1055,7 +1056,7 @@ select option
 .page_menu_content
 {
 	height: 0px;
-	background: #0e8ce4;
+	background: #9F7416;
 	padding-left: 15px;
 	padding-right: 15px;
 	overflow: hidden;
@@ -1221,7 +1222,7 @@ select option
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	line-height: 1.166;
-	color: #7599b2;
+	color: #0b3bb0;
 	text-transform: uppercase;
 	letter-spacing: 0.038em;
 }
@@ -2514,7 +2515,7 @@ select option
 .best_sellers
 {
 	padding-top: 56px;
-	background: #eff6fa;
+	background: #db9c5500;
 	padding-bottom: 50px;
 	margin-top: -77px;
 }
