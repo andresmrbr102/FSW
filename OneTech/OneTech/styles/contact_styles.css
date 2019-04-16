@@ -42,7 +42,7 @@ body
 	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
+	background: rgb(219, 156, 21);
 	color: #000000;
 }
 div
@@ -95,7 +95,7 @@ p a:active
 }
 p a:hover
 {
-	color: #FFFFFF;
+	color: rgb(219, 156, 21);
 	background: #ffa07f;
 }
 p a:hover::after
@@ -402,7 +402,7 @@ section
 }
 .standard_dropdown li a:hover
 {
-	color: #0e8ce4;
+	color: #ffffff;
 }
 .standard_dropdown li a i
 {
@@ -542,7 +542,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #0e8ce4;
+	color: #000000;
 }
 .header_search
 {
@@ -561,7 +561,7 @@ section
 {
 	width: 100%;
 	height: 50px;
-	border: solid 1px #e5e5e5;
+	border: solid 1px rgb(255, 255, 255);
 	border-radius: 5px;
 }
 .header_search_form
@@ -643,7 +643,7 @@ section
 .custom_dropdown_list i
 {
 	display: inline-block;
-	color: #a3a3a3;
+	color: #ffffff;
 	font-size: 10px;
 	margin-left: 3px;
 	-webkit-transform: translateY(-1px);
@@ -657,7 +657,7 @@ section
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 300;
-	color: #a3a3a3;
+	color: #ffffff;
 	line-height: 48px;
 	cursor: pointer;
 }
@@ -714,7 +714,7 @@ section
 }
 .custom_list li a:hover
 {
-	color: #0e8ce4;
+	color: #ffffff;
 }
 select
 {
@@ -726,7 +726,7 @@ select
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	border-bottom: 2px solid #555;
-	color: #7b00ff;
+	color: #ffffff;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
@@ -749,7 +749,7 @@ select option
 	right: 0;
 	width: 50px;
 	height: 100%;
-	background: #0e8ce4;
+	background: #000000;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -785,12 +785,12 @@ select option
 }
 .wishlist_text a:hover
 {
-	color: #0e8ce4;
+	color: #000000;
 }
 .wishlist_count
 {
 	margin-top: -2px;
-	color: #a3a3a3;
+	color: #ffffff;
 	font-size: 14px;
 }
 .cart_count
@@ -800,7 +800,7 @@ select option
 	right: -14px;
 	width: 23px;
 	height: 23px;
-	background: #0e8ce4;
+	background: #000000;
 	border-radius: 50%;
 	text-align: center;
 }
@@ -837,12 +837,12 @@ select option
 }
 .cart_text a:hover
 {
-	color: #0e8ce4;
+	color: #ffffff;
 }
 .cart_price
 {
 	font-size: 14px;
-	color: #a3a3a3;
+	color: #ffffff;
 	margin-top: -2px;
 }
 
@@ -855,7 +855,7 @@ select option
 	width: 100%;
 	border-top: solid 1px #f2f2f2;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
-	background: #FFFFFF;
+	background: rgb(219, 156, 21);
 }
 .header.scrolled .main_nav
 {
@@ -877,7 +877,7 @@ select option
 {
 	width: 293px;
 	height: 100%;
-	background: #0e8ce4;
+	background: rgb(219, 156, 21);
 	padding-left: 35px;
 	cursor: pointer;
 	z-index: 1;
@@ -925,8 +925,8 @@ select option
 	visibility: hidden;
 	opacity: 0;
 	min-width: 100%;
-	background: #FFFFFF;
-	box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+	background: rgb(255, 255, 255);;
+	box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.1);
 	-webkit-transition: opacity 0.3s ease;
     -moz-transition: opacity 0.3s ease;
     -ms-transition: opacity 0.3s ease;
@@ -973,7 +973,7 @@ select option
 }
 .cat_menu li a:hover
 {
-	color: #0e8ce4;
+	color: #000000;
 }
 .cat_menu li a i
 {
@@ -997,7 +997,7 @@ select option
 	visibility: hidden;
 	opacity: 0;
 	width: 100%;
-	background: #FFFFFF;
+	background: rgb(255, 255, 255);
 	box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
 }
 .cat_menu li:hover > ul
@@ -1049,7 +1049,7 @@ select option
 	display: inline-block;
 	font-size: 18px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     margin-right: 16px;
 }
@@ -1069,7 +1069,7 @@ select option
 .page_menu_content
 {
 	height: 0px;
-	background: #0e8ce4;
+	background: #ffffff;
 	padding-left: 15px;
 	padding-right: 15px;
 	overflow: hidden;
@@ -1085,7 +1085,7 @@ select option
 {
 	width: 100%;
 	height: 40px;
-	background: #FFFFFF;
+	background: rgb(0, 0, 0);
 	border: none;
 	outline: none;
 	padding-left: 25px;
@@ -1104,7 +1104,7 @@ select option
 .page_menu_item > a
 {
 	display: block;
-	color: #FFFFFF;
+	color: rgb(0, 0, 0);
 	font-weight: 500;
 	height: 50px;
 	line-height: 50px;
@@ -1118,7 +1118,7 @@ select option
 }
 .page_menu_item > a:hover
 {
-	color: #b5aec4;
+	color: #000000;
 }
 .page_menu_item a i
 {
@@ -1146,7 +1146,7 @@ select option
 .page_menu_selection li a
 {
 	display: block;
-	color: #FFFFFF;
+	color: rgb(2, 2, 2);
 	border-bottom: solid 1px rgba(255,255,255,0.1);
 	font-size: 14px;
 	text-transform: uppercase;
@@ -1158,7 +1158,7 @@ select option
 }
 .page_menu_selection li a:hover
 {
-	color: #b5aec4;
+	color: #000000;
 }
 .page_menu_selection li:last-child a
 {
@@ -1171,7 +1171,7 @@ select option
 	font-weight: 300;
 	line-height: 56px;
 	margin-right: 40px;
-	color: #FFFFFF;
+	color: rgb(0, 0, 0);
 }
 .menu_contact_item:not(:first-child)
 {
@@ -1182,7 +1182,7 @@ select option
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 56px;
-	color: #FFFFFF;
+	color: rgb(0, 0, 0);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1191,7 +1191,7 @@ select option
 }
 .menu_contact_item a:hover
 {
-	color: #8a8a8a;
+	color: #000000;
 }
 .menu_contact_item:last-child
 {
@@ -1280,7 +1280,7 @@ select option
 	border: solid 1px #e5e5e5;
 	border-radius: 5px;
 	outline: none;
-	color: #0e8ce4;
+	color: #ffffff;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1340,7 +1340,7 @@ select option
 	padding-top: 15px;
 	border: solid 1px #e5e5e5;
 	border-radius: 5px;
-	color: #0e8ce4;
+	color: #000000;
 	outline: none;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1457,7 +1457,7 @@ select option
 	padding-left: 25px;
 	font-size: 16px;
 	outline: none;
-	color: #0e8ce4;
+	color: #000000;
 }
 .newsletter_input:focus
 {
@@ -1519,7 +1519,7 @@ select option
 .newsletter_unsubscribe_link a
 {
 	font-size: 10px;
-	color: #0e8ce4;
+	color: #000000;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -1527,7 +1527,7 @@ select option
 }
 .newsletter_unsubscribe_link a:hover
 {
-	color: #0d82d3;
+	color: #000000;
 }
 
 /*********************************
@@ -1568,7 +1568,7 @@ select option
 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #0e8ce4;
+	color: #000000;
 	margin-top: 13px;
 }
 .footer_contact_text
@@ -1607,7 +1607,7 @@ select option
 }
 .footer_social ul li:hover i
 {
-	color: #0e8ce4;
+	color: #000000;
 }
 .footer_subtitle
 {
@@ -1639,7 +1639,7 @@ select option
 }
 .footer_list li a:hover
 {
-	color: #0e8ce4;
+	color: #000000;
 }
 .footer_list_2
 {
